@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD9590631C12E1F6009F5550 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9590621C12E1F6009F5550 /* SignUp.swift */; };
+		BD9590651C1444E6009F5550 /* RetrievePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9590641C1444E6009F5550 /* RetrievePassword.swift */; };
+		BDB937AA1C159D05001598AA /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB937A91C159D05001598AA /* SelectViewController.swift */; };
+		BDCEEA931C0F409600B373BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCEEA921C0F409600B373BF /* AppDelegate.swift */; };
+		BDCEEA951C0F409600B373BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCEEA941C0F409600B373BF /* ViewController.swift */; };
+		BDCEEA981C0F409600B373BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCEEA961C0F409600B373BF /* Main.storyboard */; };
+		BDCEEA9B1C0F409600B373BF /* DateCore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDCEEA991C0F409600B373BF /* DateCore.xcdatamodeld */; };
+		BDCEEA9D1C0F409600B373BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCEEA9C1C0F409600B373BF /* Assets.xcassets */; };
+		BDCEEAA01C0F409600B373BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCEEA9E1C0F409600B373BF /* LaunchScreen.storyboard */; };
+		BDCEEAAB1C0F409600B373BF /* DateCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCEEAAA1C0F409600B373BF /* DateCoreTests.swift */; };
+		BDCEEAB61C0F409700B373BF /* DateCoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCEEAB51C0F409700B373BF /* DateCoreUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDCEEAA71C0F409600B373BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDCEEA871C0F409500B373BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDCEEA8E1C0F409500B373BF;
+			remoteInfo = DateCore;
+		};
+		BDCEEAB21C0F409700B373BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDCEEA871C0F409500B373BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDCEEA8E1C0F409500B373BF;
+			remoteInfo = DateCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD9590621C12E1F6009F5550 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		BD9590641C1444E6009F5550 /* RetrievePassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetrievePassword.swift; sourceTree = "<group>"; };
+		BD95907A1C149C93009F5550 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BDB937A91C159D05001598AA /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectViewController.swift; path = ../SelectViewController.swift; sourceTree = "<group>"; };
+		BDCEEA8F1C0F409500B373BF /* DateCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCEEA921C0F409600B373BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDCEEA941C0F409600B373BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDCEEA971C0F409600B373BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDCEEA9A1C0F409600B373BF /* DateCore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DateCore.xcdatamodel; sourceTree = "<group>"; };
+		BDCEEA9C1C0F409600B373BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDCEEA9F1C0F409600B373BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDCEEAA11C0F409600B373BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDCEEAA61C0F409600B373BF /* DateCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCEEAAA1C0F409600B373BF /* DateCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCoreTests.swift; sourceTree = "<group>"; };
+		BDCEEAAC1C0F409600B373BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDCEEAB11C0F409700B373BF /* DateCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateCoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCEEAB51C0F409700B373BF /* DateCoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCoreUITests.swift; sourceTree = "<group>"; };
+		BDCEEAB71C0F409700B373BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDCEEA8C1C0F409500B373BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEEAA31C0F409600B373BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEEAAE1C0F409600B373BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDCEEA861C0F409500B373BF = {
+			isa = PBXGroup;
+			children = (
+				BD95907A1C149C93009F5550 /* CoreData.framework */,
+				BDCEEA911C0F409600B373BF /* DateCore */,
+				BDCEEAB41C0F409700B373BF /* DateCoreUITests */,
+				BDCEEA901C0F409500B373BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDCEEA901C0F409500B373BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEEA8F1C0F409500B373BF /* DateCore.app */,
+				BDCEEAA61C0F409600B373BF /* DateCoreTests.xctest */,
+				BDCEEAB11C0F409700B373BF /* DateCoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDCEEA911C0F409600B373BF /* DateCore */ = {
+			isa = PBXGroup;
+			children = (
+				BDB937A91C159D05001598AA /* SelectViewController.swift */,
+				BDCEEA921C0F409600B373BF /* AppDelegate.swift */,
+				BDCEEA941C0F409600B373BF /* ViewController.swift */,
+				BD9590621C12E1F6009F5550 /* SignUp.swift */,
+				BD9590641C1444E6009F5550 /* RetrievePassword.swift */,
+				BDCEEA961C0F409600B373BF /* Main.storyboard */,
+				BDCEEA9C1C0F409600B373BF /* Assets.xcassets */,
+				BDCEEA9E1C0F409600B373BF /* LaunchScreen.storyboard */,
+				BDCEEAA91C0F409600B373BF /* DateCoreTests */,
+				BDCEEAA11C0F409600B373BF /* Info.plist */,
+				BDCEEA991C0F409600B373BF /* DateCore.xcdatamodeld */,
+			);
+			path = DateCore;
+			sourceTree = "<group>";
+		};
+		BDCEEAA91C0F409600B373BF /* DateCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEEAAA1C0F409600B373BF /* DateCoreTests.swift */,
+				BDCEEAAC1C0F409600B373BF /* Info.plist */,
+			);
+			path = DateCoreTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		BDCEEAB41C0F409700B373BF /* DateCoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEEAB51C0F409700B373BF /* DateCoreUITests.swift */,
+				BDCEEAB71C0F409700B373BF /* Info.plist */,
+			);
+			path = DateCoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDCEEA8E1C0F409500B373BF /* DateCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCEEABA1C0F409700B373BF /* Build configuration list for PBXNativeTarget "DateCore" */;
+			buildPhases = (
+				BDCEEA8B1C0F409500B373BF /* Sources */,
+				BDCEEA8C1C0F409500B373BF /* Frameworks */,
+				BDCEEA8D1C0F409500B373BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateCore;
+			productName = DateCore;
+			productReference = BDCEEA8F1C0F409500B373BF /* DateCore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDCEEAA51C0F409600B373BF /* DateCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCEEABD1C0F409700B373BF /* Build configuration list for PBXNativeTarget "DateCoreTests" */;
+			buildPhases = (
+				BDCEEAA21C0F409600B373BF /* Sources */,
+				BDCEEAA31C0F409600B373BF /* Frameworks */,
+				BDCEEAA41C0F409600B373BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDCEEAA81C0F409600B373BF /* PBXTargetDependency */,
+			);
+			name = DateCoreTests;
+			productName = DateCoreTests;
+			productReference = BDCEEAA61C0F409600B373BF /* DateCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDCEEAB01C0F409600B373BF /* DateCoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCEEAC01C0F409700B373BF /* Build configuration list for PBXNativeTarget "DateCoreUITests" */;
+			buildPhases = (
+				BDCEEAAD1C0F409600B373BF /* Sources */,
+				BDCEEAAE1C0F409600B373BF /* Frameworks */,
+				BDCEEAAF1C0F409600B373BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDCEEAB31C0F409700B373BF /* PBXTargetDependency */,
+			);
+			name = DateCoreUITests;
+			productName = DateCoreUITests;
+			productReference = BDCEEAB11C0F409700B373BF /* DateCoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDCEEA871C0F409500B373BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Wang;
+				TargetAttributes = {
+					BDCEEA8E1C0F409500B373BF = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					BDCEEAA51C0F409600B373BF = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BDCEEA8E1C0F409500B373BF;
+					};
+					BDCEEAB01C0F409600B373BF = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BDCEEA8E1C0F409500B373BF;
+					};
+				};
+			};
+			buildConfigurationList = BDCEEA8A1C0F409500B373BF /* Build configuration list for PBXProject "DateCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDCEEA861C0F409500B373BF;
+			productRefGroup = BDCEEA901C0F409500B373BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDCEEA8E1C0F409500B373BF /* DateCore */,
+				BDCEEAA51C0F409600B373BF /* DateCoreTests */,
+				BDCEEAB01C0F409600B373BF /* DateCoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDCEEA8D1C0F409500B373BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCEEAA01C0F409600B373BF /* LaunchScreen.storyboard in Resources */,
+				BDCEEA9D1C0F409600B373BF /* Assets.xcassets in Resources */,
+				BDCEEA981C0F409600B373BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEEAA41C0F409600B373BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEEAAF1C0F409600B373BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDCEEA8B1C0F409500B373BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9590651C1444E6009F5550 /* RetrievePassword.swift in Sources */,
+				BDCEEA951C0F409600B373BF /* ViewController.swift in Sources */,
+				BD9590631C12E1F6009F5550 /* SignUp.swift in Sources */,
+				BDCEEA9B1C0F409600B373BF /* DateCore.xcdatamodeld in Sources */,
+				BDB937AA1C159D05001598AA /* SelectViewController.swift in Sources */,
+				BDCEEA931C0F409600B373BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEEAA21C0F409600B373BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCEEAAB1C0F409600B373BF /* DateCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEEAAD1C0F409600B373BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCEEAB61C0F409700B373BF /* DateCoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDCEEAA81C0F409600B373BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDCEEA8E1C0F409500B373BF /* DateCore */;
+			targetProxy = BDCEEAA71C0F409600B373BF /* PBXContainerItemProxy */;
+		};
+		BDCEEAB31C0F409700B373BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDCEEA8E1C0F409500B373BF /* DateCore */;
+			targetProxy = BDCEEAB21C0F409700B373BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDCEEA961C0F409600B373BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCEEA971C0F409600B373BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDCEEA9E1C0F409600B373BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCEEA9F1C0F409600B373BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDCEEAB81C0F409700B373BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDCEEAB91C0F409700B373BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDCEEABB1C0F409700B373BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DateCore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangweiguang.DateCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDCEEABC1C0F409700B373BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DateCore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangweiguang.DateCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDCEEABE1C0F409700B373BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DateCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangweiguang.DateCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateCore.app/DateCore";
+			};
+			name = Debug;
+		};
+		BDCEEABF1C0F409700B373BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DateCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangweiguang.DateCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateCore.app/DateCore";
+			};
+			name = Release;
+		};
+		BDCEEAC11C0F409700B373BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DateCoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangweiguang.DateCoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DateCore;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BDCEEAC21C0F409700B373BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DateCoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangweiguang.DateCoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DateCore;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDCEEA8A1C0F409500B373BF /* Build configuration list for PBXProject "DateCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCEEAB81C0F409700B373BF /* Debug */,
+				BDCEEAB91C0F409700B373BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCEEABA1C0F409700B373BF /* Build configuration list for PBXNativeTarget "DateCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCEEABB1C0F409700B373BF /* Debug */,
+				BDCEEABC1C0F409700B373BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCEEABD1C0F409700B373BF /* Build configuration list for PBXNativeTarget "DateCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCEEABE1C0F409700B373BF /* Debug */,
+				BDCEEABF1C0F409700B373BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCEEAC01C0F409700B373BF /* Build configuration list for PBXNativeTarget "DateCoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCEEAC11C0F409700B373BF /* Debug */,
+				BDCEEAC21C0F409700B373BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDCEEA991C0F409600B373BF /* DateCore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDCEEA9A1C0F409600B373BF /* DateCore.xcdatamodel */,
+			);
+			currentVersion = BDCEEA9A1C0F409600B373BF /* DateCore.xcdatamodel */;
+			path = DateCore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDCEEA871C0F409500B373BF /* Project object */;
+}
