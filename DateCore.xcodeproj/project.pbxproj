@@ -7,9 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD3BE5721C28E64B00C912B8 /* ManageStu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3BE5711C28E64B00C912B8 /* ManageStu.swift */; };
 		BD9590631C12E1F6009F5550 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9590621C12E1F6009F5550 /* SignUp.swift */; };
 		BD9590651C1444E6009F5550 /* RetrievePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9590641C1444E6009F5550 /* RetrievePassword.swift */; };
+		BD9B12DC1C184C0100665BEA /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B12DA1C184C0100665BEA /* User+CoreDataProperties.swift */; };
+		BD9B12DD1C184C0100665BEA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B12DB1C184C0100665BEA /* User.swift */; };
+		BD9B12E61C1981A500665BEA /* Verify+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B12E21C1981A500665BEA /* Verify+CoreDataProperties.swift */; };
+		BD9B12E71C1981A500665BEA /* Verify.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B12E31C1981A500665BEA /* Verify.swift */; };
+		BD9B12E81C1981A500665BEA /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B12E41C1981A500665BEA /* Student+CoreDataProperties.swift */; };
+		BD9B12E91C1981A500665BEA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B12E51C1981A500665BEA /* Student.swift */; };
+		BD9B12EB1C1A6B5A00665BEA /* 狼人.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD9B12EA1C1A6B5A00665BEA /* 狼人.jpg */; };
+		BD9B12ED1C1B4C7A00665BEA /* user_49.222520107239px_1187757_easyicon.net.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9B12EC1C1B4C7A00665BEA /* user_49.222520107239px_1187757_easyicon.net.png */; };
+		BD9B12EF1C1B4D0800665BEA /* password_32px_1169936_easyicon.net.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9B12EE1C1B4D0800665BEA /* password_32px_1169936_easyicon.net.png */; };
+		BD9B12F11C1B9F4E00665BEA /* empty_button_48px_1131618_easyicon.net.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9B12F01C1B9F4E00665BEA /* empty_button_48px_1131618_easyicon.net.png */; };
+		BD9B12F71C1BAB9E00665BEA /* StudentInsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B12F61C1BAB9E00665BEA /* StudentInsert.swift */; };
+		BD9B12F91C1BB3E200665BEA /* SelectStu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B12F81C1BB3E200665BEA /* SelectStu.swift */; };
+		BDB823BE1C27D292000943E4 /* mountain and galaxy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDB823BD1C27D292000943E4 /* mountain and galaxy.jpg */; };
 		BDB937AA1C159D05001598AA /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB937A91C159D05001598AA /* SelectViewController.swift */; };
+		BDCBB6881C2910080098CA9D /* ManageStuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCBB6871C2910080098CA9D /* ManageStuDelegate.swift */; };
 		BDCEEA931C0F409600B373BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCEEA921C0F409600B373BF /* AppDelegate.swift */; };
 		BDCEEA951C0F409600B373BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCEEA941C0F409600B373BF /* ViewController.swift */; };
 		BDCEEA981C0F409600B373BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCEEA961C0F409600B373BF /* Main.storyboard */; };
@@ -38,10 +53,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD3BE5711C28E64B00C912B8 /* ManageStu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManageStu.swift; path = ../ManageStu.swift; sourceTree = "<group>"; };
 		BD9590621C12E1F6009F5550 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		BD9590641C1444E6009F5550 /* RetrievePassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetrievePassword.swift; sourceTree = "<group>"; };
-		BD95907A1C149C93009F5550 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BD9B12DA1C184C0100665BEA /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BD9B12DB1C184C0100665BEA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BD9B12E21C1981A500665BEA /* Verify+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Verify+CoreDataProperties.swift"; path = "DateCore/Verify+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BD9B12E31C1981A500665BEA /* Verify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Verify.swift; path = DateCore/Verify.swift; sourceTree = "<group>"; };
+		BD9B12E41C1981A500665BEA /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Student+CoreDataProperties.swift"; path = "DateCore/Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BD9B12E51C1981A500665BEA /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Student.swift; path = DateCore/Student.swift; sourceTree = "<group>"; };
+		BD9B12EA1C1A6B5A00665BEA /* 狼人.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狼人.jpg"; sourceTree = "<group>"; };
+		BD9B12EC1C1B4C7A00665BEA /* user_49.222520107239px_1187757_easyicon.net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_49.222520107239px_1187757_easyicon.net.png; sourceTree = "<group>"; };
+		BD9B12EE1C1B4D0800665BEA /* password_32px_1169936_easyicon.net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password_32px_1169936_easyicon.net.png; sourceTree = "<group>"; };
+		BD9B12F01C1B9F4E00665BEA /* empty_button_48px_1131618_easyicon.net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty_button_48px_1131618_easyicon.net.png; sourceTree = "<group>"; };
+		BD9B12F61C1BAB9E00665BEA /* StudentInsert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInsert.swift; sourceTree = "<group>"; };
+		BD9B12F81C1BB3E200665BEA /* SelectStu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectStu.swift; sourceTree = "<group>"; };
+		BDB823BD1C27D292000943E4 /* mountain and galaxy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mountain and galaxy.jpg"; sourceTree = "<group>"; };
 		BDB937A91C159D05001598AA /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectViewController.swift; path = ../SelectViewController.swift; sourceTree = "<group>"; };
+		BDCBB6871C2910080098CA9D /* ManageStuDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageStuDelegate.swift; sourceTree = "<group>"; };
 		BDCEEA8F1C0F409500B373BF /* DateCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCEEA921C0F409600B373BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDCEEA941C0F409600B373BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +115,12 @@
 		BDCEEA861C0F409500B373BF = {
 			isa = PBXGroup;
 			children = (
-				BD95907A1C149C93009F5550 /* CoreData.framework */,
+				BD9B12DA1C184C0100665BEA /* User+CoreDataProperties.swift */,
+				BD9B12DB1C184C0100665BEA /* User.swift */,
+				BD9B12E21C1981A500665BEA /* Verify+CoreDataProperties.swift */,
+				BD9B12E31C1981A500665BEA /* Verify.swift */,
+				BD9B12E41C1981A500665BEA /* Student+CoreDataProperties.swift */,
+				BD9B12E51C1981A500665BEA /* Student.swift */,
 				BDCEEA911C0F409600B373BF /* DateCore */,
 				BDCEEAB41C0F409700B373BF /* DateCoreUITests */,
 				BDCEEA901C0F409500B373BF /* Products */,
@@ -106,14 +140,23 @@
 		BDCEEA911C0F409600B373BF /* DateCore */ = {
 			isa = PBXGroup;
 			children = (
+				BDCEEA9E1C0F409600B373BF /* LaunchScreen.storyboard */,
+				BDCEEA961C0F409600B373BF /* Main.storyboard */,
 				BDB937A91C159D05001598AA /* SelectViewController.swift */,
 				BDCEEA921C0F409600B373BF /* AppDelegate.swift */,
 				BDCEEA941C0F409600B373BF /* ViewController.swift */,
 				BD9590621C12E1F6009F5550 /* SignUp.swift */,
+				BD9B12F61C1BAB9E00665BEA /* StudentInsert.swift */,
 				BD9590641C1444E6009F5550 /* RetrievePassword.swift */,
-				BDCEEA961C0F409600B373BF /* Main.storyboard */,
+				BD9B12F81C1BB3E200665BEA /* SelectStu.swift */,
+				BD3BE5711C28E64B00C912B8 /* ManageStu.swift */,
+				BDCBB6871C2910080098CA9D /* ManageStuDelegate.swift */,
 				BDCEEA9C1C0F409600B373BF /* Assets.xcassets */,
-				BDCEEA9E1C0F409600B373BF /* LaunchScreen.storyboard */,
+				BD9B12F01C1B9F4E00665BEA /* empty_button_48px_1131618_easyicon.net.png */,
+				BD9B12EC1C1B4C7A00665BEA /* user_49.222520107239px_1187757_easyicon.net.png */,
+				BD9B12EE1C1B4D0800665BEA /* password_32px_1169936_easyicon.net.png */,
+				BD9B12EA1C1A6B5A00665BEA /* 狼人.jpg */,
+				BDB823BD1C27D292000943E4 /* mountain and galaxy.jpg */,
 				BDCEEAA91C0F409600B373BF /* DateCoreTests */,
 				BDCEEAA11C0F409600B373BF /* Info.plist */,
 				BDCEEA991C0F409600B373BF /* DateCore.xcdatamodeld */,
@@ -243,9 +286,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9B12ED1C1B4C7A00665BEA /* user_49.222520107239px_1187757_easyicon.net.png in Resources */,
+				BD9B12F11C1B9F4E00665BEA /* empty_button_48px_1131618_easyicon.net.png in Resources */,
+				BDB823BE1C27D292000943E4 /* mountain and galaxy.jpg in Resources */,
 				BDCEEAA01C0F409600B373BF /* LaunchScreen.storyboard in Resources */,
 				BDCEEA9D1C0F409600B373BF /* Assets.xcassets in Resources */,
+				BD9B12EF1C1B4D0800665BEA /* password_32px_1169936_easyicon.net.png in Resources */,
 				BDCEEA981C0F409600B373BF /* Main.storyboard in Resources */,
+				BD9B12EB1C1A6B5A00665BEA /* 狼人.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,12 +318,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9B12E71C1981A500665BEA /* Verify.swift in Sources */,
+				BD9B12E61C1981A500665BEA /* Verify+CoreDataProperties.swift in Sources */,
 				BD9590651C1444E6009F5550 /* RetrievePassword.swift in Sources */,
 				BDCEEA951C0F409600B373BF /* ViewController.swift in Sources */,
+				BD9B12DC1C184C0100665BEA /* User+CoreDataProperties.swift in Sources */,
 				BD9590631C12E1F6009F5550 /* SignUp.swift in Sources */,
+				BD9B12E81C1981A500665BEA /* Student+CoreDataProperties.swift in Sources */,
+				BD9B12E91C1981A500665BEA /* Student.swift in Sources */,
+				BD9B12F91C1BB3E200665BEA /* SelectStu.swift in Sources */,
+				BD9B12DD1C184C0100665BEA /* User.swift in Sources */,
 				BDCEEA9B1C0F409600B373BF /* DateCore.xcdatamodeld in Sources */,
 				BDB937AA1C159D05001598AA /* SelectViewController.swift in Sources */,
+				BDCBB6881C2910080098CA9D /* ManageStuDelegate.swift in Sources */,
+				BD9B12F71C1BAB9E00665BEA /* StudentInsert.swift in Sources */,
 				BDCEEA931C0F409600B373BF /* AppDelegate.swift in Sources */,
+				BD3BE5721C28E64B00C912B8 /* ManageStu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

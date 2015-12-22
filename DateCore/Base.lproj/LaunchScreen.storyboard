@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
@@ -17,28 +17,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mountain and galaxy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iMj-HK-wZe">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="学籍管理系统" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bu-wc-Ngt">
-                                <rect key="frame" x="76" y="142" width="169" height="41"/>
+                                <rect key="frame" x="76" y="102" width="169" height="41"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aE4-iV-j4p">
-                                <rect key="frame" x="40" y="257" width="240" height="184"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aE4-iV-j4p">
+                                <rect key="frame" x="40" y="328" width="240" height="184"/>
                                 <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">喜欢1℃的冬季，不是寒，而是凉，甚至于有些和煦。相比于盎洋着勃勃生机的夏，更喜欢那中沉寂凋零背后所蕴含的勃勃生命力。单调的背后更是一种敞亮。阳光一照便是近乎照满了整个大地。没有了明暗的斑驳，阴影下虫鸣的聒噪。有的只是冷风拂过你脸庞的寒意，和树上地上枯叶的嗦唆戚戚的悲鸣。一个人内心深处所潜藏的孤独感便呼之欲出。</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">喜欢微微高于零度的的冬，不是寒，而是凉，甚至于有些和煦。相比于盎洋着勃勃生机的夏，更喜欢那中沉寂凋零背后所蕴含的勃勃生命力。单调的背后更是一种敞亮。阳光一照便是近乎照满了整个大地。没有了明暗的斑驳，阴影下虫鸣的聒噪。有的只是冷风拂过你脸庞的寒意，和树上地上枯叶的嗦唆戚戚的悲鸣。一个人内心深处所潜藏的孤独感便呼之欲出。</string>
+                                <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="28" y="355"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="mountain and galaxy.jpg" width="423" height="750"/>
+    </resources>
 </document>

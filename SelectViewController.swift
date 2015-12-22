@@ -7,22 +7,28 @@
 //
 
 import UIKit
+import CoreData
+
 
 class SelectViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let alertSuccess = UIAlertController(title: "恭喜你", message: "登陆成功！现在可执行管理员操作！", preferredStyle: UIAlertControllerStyle.Alert)
+        let alertSuccess = UIAlertController(title: "登陆成功！", message: "现在可进行管理员操作！", preferredStyle: UIAlertControllerStyle.Alert)
         let confirmAlert = UIAlertAction(title: "确定", style: UIAlertActionStyle.Default, handler: nil)
         alertSuccess.addAction(confirmAlert)
         self.presentViewController(alertSuccess, animated: true, completion: nil)
     }
 
+    
+
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
 
     /*

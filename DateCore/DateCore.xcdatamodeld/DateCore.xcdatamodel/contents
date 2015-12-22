@@ -1,47 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
-    <entity name="Admission" representedClassName=".Admission" syncable="YES">
-        <attribute name="joinYear" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="no" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="stuinfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="StuInfo" inverseName="admission" inverseEntity="StuInfo" syncable="YES"/>
-    </entity>
-    <entity name="Study" representedClassName=".Study" syncable="YES">
-        <attribute name="classNo" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="department" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="grade" optional="YES" attributeType="Integer 16" minValueString="1995" maxValueString="2015" defaultValueString="2015" syncable="YES"/>
-        <attribute name="no" attributeType="String" indexed="YES" syncable="YES"/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="Student" representedClassName=".Student" syncable="YES">
+        <attribute name="attentionYear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="classNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="college" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hometown" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nativePlace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sno" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="speciality" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="stuinfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="StuInfo" inverseName="study" inverseEntity="StuInfo" syncable="YES"/>
-    </entity>
-    <entity name="StuInfo" representedClassName=".StuInfo" syncable="YES">
-        <attribute name="id" attributeType="String" syncable="YES"/>
-        <attribute name="name" attributeType="String" syncable="YES"/>
-        <attribute name="nativepalace" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="no" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="sex" attributeType="String" syncable="YES"/>
-        <relationship name="admission" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Admission" inverseName="stuinfo" inverseEntity="Admission" syncable="YES"/>
-        <relationship name="study" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Study" inverseName="stuinfo" inverseEntity="Study" syncable="YES"/>
     </entity>
     <entity name="User" representedClassName=".User" syncable="YES">
         <attribute name="college" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="professional" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="teacherID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teacherID" attributeType="String" indexed="YES" syncable="YES"/>
         <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Verify" inverseName="relationship" inverseEntity="Verify" syncable="YES"/>
     </entity>
     <entity name="Verify" representedClassName=".Verify" syncable="YES">
         <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="teacherID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teacherID" attributeType="String" indexed="YES" syncable="YES"/>
         <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="relationship" inverseEntity="User" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Admission" positionX="-144" positionY="-252" width="153" height="103"/>
-        <element name="Study" positionX="-119" positionY="-135" width="128" height="133"/>
-        <element name="StuInfo" positionX="-342" positionY="-153" width="128" height="148"/>
-        <element name="User" positionX="-218" positionY="72" width="128" height="135"/>
-        <element name="Verify" positionX="-38" positionY="72" width="128" height="105"/>
+        <element name="Student" positionX="-432" positionY="158" width="128" height="195"/>
+        <element name="User" positionX="-227" positionY="0" width="128" height="133"/>
+        <element name="Verify" positionX="-443" positionY="18" width="128" height="103"/>
     </elements>
 </model>
